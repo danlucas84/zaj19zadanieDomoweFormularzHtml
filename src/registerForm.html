@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<br>
+
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/styles.min.css" rel="stylesheet">
+
+<div>
+<h1>Rejestracja</h1>
+</div>
+
+</head>
+<div>
+    <div class="form-group">
+        <label for="name">Imię:</label>
+        <input type="text" class="form-control" id="name" placeholder="Wpisz imię">
+    </div>
+
+    <div class="form-group">
+        <label for="secondName">Nazwisko:</label>
+        <input type="text" class="form-control" id="secondName" placeholder="Wpisz nazwisko"><br>
+    </div>
+    <div>
+<span style="float-displace: auto">
+    Płeć:
+    <input type="radio" name="plec1" value="Kobieta"checked="">Kobieta
+    <input type="radio" name="plec2" value="Mezczyzna">Meżczyzna
+</span>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                   placeholder="Wpisz adres email">
+
+            <label for="exampleInputPassword1">Hasło</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Hasło">
+        </div>
+    </form>
+    <div>
+        Min. 8 znaków
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="przykladoweMiasto">Miasto</label>
+            <input type="text" class="form-control" id="przykladoweMiasto">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="przykladoweWojewodztwo">Województwo</label>
+            <select id="przykladoweWojewodztwo" class="form-control">
+                <option selected>Wybierz...</option>
+                <option>dolnośląskie</option>
+                <option>lubelskie</option>
+                <option>lubuskie</option>
+                <option>łódzkie</option>
+                <option>małopolskie</option>
+                <option>mazowieckie</option>
+                <option>opolskie</option>
+                <option>podkarpackie</option>
+                <option>podlaskie</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="przykladowyKodPocztowy">Kod pocztowy</label>
+            <input type="text" class="form-control" id="przykladowyKodPocztowy">
+        </div>
+    </div>
+    <div class = "form-group">
+    <form>
+    <div class="custom-control1 custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="defaultChecked1" checked>
+        <label class="custom-control-label" for="defaultChecked1">Akceptuję regulamin</label>
+    </div>
+        <div class = "form-group">
+    <div class="custom-control2 custom-checkbox form-check-inline">
+        <input type="checkbox" class="custom-control-input" id="defaultunChecked2" unchecked>
+        <label class="custom-control-label" for="defaultunChecked2">Wyrażam zgodę na otrzymywanie informacji marketingowych</label>
+    </div>
+        <div>
+        <form>
+            <button type="submit"  class="btn btn-primary">Rejestruj</button>
+        </form>
+        </div>
+</div>
+
+<body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

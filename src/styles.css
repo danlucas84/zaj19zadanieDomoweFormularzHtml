@@ -1,0 +1,57 @@
+div {
+    border: 10px black;
+    padding: 10px;
+
+    background-clip: padding-box;
+    margin: auto;
+}
+
+form {
+
+    margin: auto;
+}
+
+span{
+    margin: auto;
+}
+
+h1{
+    margin: auto;
+}
+
+#exampleInputCity1 {
+
+    width: 100%;
+
+}
+
+#exampleSelectDistrict1 {
+
+    width: 100%
+  }
+
+#exampleZipCode1{
+    margin: auto;
+    padding: auto;
+    width: 100%;
+}
+
+#defaultChecked1 {
+    width: 100%;
+}
+
+#defaultunChecked2{
+    width: 100%;
+}
+
+
+.p {
+    margin: auto;
+}
+
+.btn-primary {
+    margin: auto;
+    padding: auto;
+    align-self: auto;
+}
+
